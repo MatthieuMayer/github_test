@@ -471,7 +471,7 @@ input, select, textarea {
 				}
 
 		.row.gtr-50 {
-			margin-top: 0;
+			margin-top: 1em;
 			margin-left: -1.25em;
 		}
 
@@ -480,7 +480,7 @@ input, select, textarea {
 			}
 
 			.row.gtr-50.gtr-uniform {
-				margin-top: 0em;
+				margin-top: 1em;
 			}
 
 				.row.gtr-50.gtr-uniform > * {
