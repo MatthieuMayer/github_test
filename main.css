@@ -146,7 +146,7 @@ input, select, textarea {
 		}
 
 	h1 {
-		font-size: 1.8em;
+		font-size:  2.5em;
 		line-height: 1.5em;
 	}
 
@@ -2099,13 +2099,13 @@ input, select, textarea {
 
 		.image.left {
 			float: left;
-			margin: 0 1.5em 1em 0;
+			margin: 0 1.5em 0.5em 0;
 			top: 0.25em;
 		}
 
 		.image.right {
 			float: right;
-			margin: 0 0 1em 1.5em;
+			margin: 0 0 0.5em 1em;
 			top: 0.25em;
 		}
 
@@ -2276,8 +2276,10 @@ input, select, textarea {
 	}
 
 		ul.actions li {
-			padding: 0 0 0 1em;
+			padding: 2em 0 0 1em;
 			vertical-align: middle;
+			position: relative;
+			left: 35%;
 		}
 
 		ul.actions.special {
@@ -2581,18 +2583,25 @@ input, select, textarea {
 	}
 
 		.work-item .image {
-			margin: 0 0 1.5em 0;
+			margin: 0 0 1em 0;
 		}
 
 		.work-item h3 {
-			font-size: 1em;
-			margin: 0 0 0.5em 0;
+			font-size: 1.2em;
+			margin: 0 0 0.2em 0;
 		}
 
 		.work-item p {
-			font-size: 0.8em;
+		    text-align: left;
+			font-size: 1em;
 			line-height: 1.5em;
-			margin: 0;
+			margin: 0.5em 0 0.2em 0;
+		}
+
+		.work-item d {
+			font-size: 1em;
+			line-height: 1.5em;
+			margin: 0 0 0.2em 0;
 		}
 
 /* Header */
@@ -2616,10 +2625,10 @@ input, select, textarea {
 		justify-content: space-between;
 		background-color: #1f1815;
 		background-attachment: scroll,								scroll;
-		background-image: url("images/overlay.png"), url("images/bg.jpg");
+		background-image: url("images/overlay.png"), url("images/bg2.jpg");
 		background-position: top left,							top left;
 		background-repeat: repeat,								no-repeat;
-		background-size: auto,								190%;
+		background-size: auto,								500%;
 		color: rgba(255, 255, 255, 0.5);
 		height: 100%;
 		left: 0;
