@@ -3169,7 +3169,7 @@ input, select, textarea {
 		/* List */
 
 			ul.labeled-icons li {
-				padding-left: 2em;
+				padding-left: 0em;
 			}
 
 				ul.labeled-icons li h3 {
