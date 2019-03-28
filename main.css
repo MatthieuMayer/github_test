@@ -1981,7 +1981,7 @@ input, select, textarea {
 
 	.box {
 		border: solid 2px #efefef;
-		margin-top: 1em;
+		margin-top: 0em;
 		margin-bottom: 1em;
 		margin-right: 0.5em;
 		margin-left: 0.5em;
